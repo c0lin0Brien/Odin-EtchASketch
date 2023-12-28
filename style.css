@@ -1,0 +1,35 @@
+
+body {
+    display: flex;
+    justify-content: center;
+}
+.grid-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 95vh;
+}
+.grid {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+    justify-content: center;
+    border-style: solid;
+    border-color: black;
+    border-width: .5px;
+}
+.lat {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.lon {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    border-width: .5px;
+    border-style: solid;
+    border-color: black;
+}
